@@ -12,7 +12,7 @@ export default function NewRecording() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:3000/api/record', {
+      const response = await fetch('https://meetbot-xi4p.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
